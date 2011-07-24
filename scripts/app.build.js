@@ -1,0 +1,1 @@
+{appDir:"../",baseUrl:"scripts/",dir:"../../webapp-build",paths:{jquery:"require-jquery"},modules:[{name:"app",exclude:["jquery"]}]}

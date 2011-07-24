@@ -1,0 +1,1 @@
+define(["jquery","i18n!std_dict/nls/nouns"],function(a){function e(){}function d(){var a=[];for(var c in b)require([b[c]],function(b){for(var c in b)a.push(c)});return a}function c(){return navigator.language?navigator.language:navigator.userLanguage||""}var b=["std_dict/nls/nouns"],f={getAvailableLanguages:d,getBrowserLanguage:c};e();return f})
